@@ -1,16 +1,13 @@
-# React + Vite
+# preview Program
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Screenshot Program
 
-Currently, two official plugins are available:
+![alt text](src/localhost_5174_.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Demo Program
 
-## React Compiler
+![alt text](<src/Recording 2026-06-11 at 11.58.36.gif>)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+program ini merupakan preview memanfaatkan state pada react dimana kita set state dengan angka 0, lalu jika state > 0 maka tombol - akan mengurangi nilai state - 1,dan jika state < 10 maka tombol + akan Menambah nilai state + 1,
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+selain itu saya memanfaatkan fitur disable pada tombol - ketika state bernilai 0, dan disable pada tombol + ketika nilai state 10
