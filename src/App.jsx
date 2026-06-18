@@ -1,8 +1,11 @@
-// import React from 'react'
-import { useState } from 'react';
+import React from 'react'
 
 function App() {
-  const [count, setCount] = useState(0);
+  const [count, setCount] = React.useState(0);
+
+  React.useEffect(() => {
+    document.title = "Count Number Up to 10";
+  }, []);
 
   const buttonPlus = () => {
     if (count < 10) {
